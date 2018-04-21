@@ -2,7 +2,7 @@
 
 **Player Movement**
 
-	Once the player character art and animations were complete, I began to work on allowing the player to be able to move the character across a basic level layout.  After watching several YouTube tutorials, I ran through several iterations on how to allow the player to move left/right and jump, with the final one being that if the player presses the A/D keys it allows for left/right movement, and if the spacebar is pressed it allows for jumping.  
+Once the player character art and animations were complete, I began to work on allowing the player to be able to move the character across a basic level layout.  After watching several YouTube tutorials, I ran through several iterations on how to allow the player to move left/right and jump, with the final one being that if the player presses the A/D keys it allows for left/right movement, and if the spacebar is pressed it allows for jumping.  
 //
 // photo or video
 //
