@@ -3,9 +3,11 @@
 **Player Movement**
 
 Once the player character art and animations were complete, I began to work on allowing the player to be able to move the character across a basic level layout.  After watching several YouTube tutorials, I ran through several iterations on how to allow the player to move left/right and jump, with the final one being that if the player presses the A/D keys it allows for left/right movement, and if the spacebar is pressed it allows for jumping.  
+
 //
 // photo or video
 //
+
 With the ability to control player movement finally completed, now I had to refine it. While the player can move around and jump, it just looks unnatural because he just slides across the world since there is no animations to him, and because he doesn’t turn around when moving back, he just slides back while looking forward.
 //
 // photo or video 
