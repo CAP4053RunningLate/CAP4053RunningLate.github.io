@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+# **Running Late DevLog**
 
-You can use the [editor on GitHub](https://github.com/CAP4053RunningLate/CAP4053RunningLate.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**Player Movement**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	Once the player character art and animations were complete, I began to work on allowing the player to be able to move the character across a basic level layout.  After watching several YouTube tutorials, I ran through several iterations on how to allow the player to move left/right and jump, with the final one being that if the player presses the A/D keys it allows for left/right movement, and if the spacebar is pressed it allows for jumping.  
+//
+// photo or video
+//
+With the ability to control player movement finally completed, now I had to refine it. While the player can move around and jump, it just looks unnatural because he just slides across the world since there is no animations to him, and because he doesn’t turn around when moving back, he just slides back while looking forward.
+//
+// photo or video 
+//
+My solution to the gliding issue, was to set the player running animations to be active whenever the player presses the A/D keys, that way the player looks like he is running across the world instead of gliding on it. I also implemented a switch onto the player that keeps track if he is facing right or not, that way I know if he is not facing right, to flip the character art to the opposite direction, making the player look more natural now when moving. 
+//
+// photo or video
+//
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CAP4053RunningLate/CAP4053RunningLate.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
